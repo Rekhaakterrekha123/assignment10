@@ -1,0 +1,93 @@
+/* Reset default styles for elements */
+body, figure, h1, h2, h3, h4, h5, h6, p, ol, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set default font size and font family */
+body {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+/* Set max width for content and center align */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Add spacing between elements */
+.container > * {
+  margin-bottom: 20px;
+}
+
+/* Set global link styles */
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Set styles for header */
+.header {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.header h1 {
+  font-size: 24px;
+}
+
+/* Set styles for main content */
+.main {
+  padding: 20px;
+}
+
+.main h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.main p {
+  line-height: 1.5;
+}
+
+/* Set styles for form */
+.form {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.form h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
